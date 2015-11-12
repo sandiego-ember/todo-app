@@ -1,0 +1,6 @@
+{{input type='checkbox' checked=todo.isDone}}
+{{#if isFocused}}
+  {{input type='text' value=todo.value}}
+{{else}}
+  {{todo.value}}
+{{/if}}
